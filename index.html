@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chúc Mừng Sinh Nhật!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -11,43 +12,98 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
-            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            /* Nền chuyển màu động */
+            background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #a18cd1);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            font-family: 'Poppins', sans-serif;
             overflow: hidden;
         }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
         .card {
-            background: white;
-            padding: 40px;
+            /* Hiệu ứng kính mờ (Glassmorphism) */
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
             border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            
+            padding: 40px;
             text-align: center;
             z-index: 10;
             max-width: 90%;
+            width: 400px;
+            /* Hiệu ứng xuất hiện khi load trang */
+            animation: popUp 0.8s cubic-bezier(0.26, 0.53, 0.74, 1.48) forwards;
+            opacity: 0;
+            transform: scale(0.5);
         }
+
+        @keyframes popUp {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Ảnh đại diện tròn và bay bồng bềnh */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
+            border: 5px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            animation: floating 3s ease-in-out infinite;
+        }
+
+        @keyframes floating {
+            0% { transform: translate(0,  0px); }
+            50% { transform: translate(0, 15px); }
+            100% { transform: translate(0, -0px); }
+        }
+
         h1 {
-            color: #ff6b6b;
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            font-family: 'Pacifico', cursive; /* Font chữ viết tay */
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            font-size: 3em;
+            margin: 20px 0 10px;
         }
         p {
-            color: #555;
+            color: #fff;
             font-size: 1.2em;
             line-height: 1.6;
+            font-weight: 600;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
         .btn {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #ff6b6b;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background: linear-gradient(to right, #ff6b6b, #ffa502);
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             cursor: pointer;
-            font-size: 1em;
-            transition: transform 0.2s;
+            font-size: 1.1em;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s ease;
         }
         .btn:hover {
-            transform: scale(1.05);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.6);
+        }
+        .btn:active {
+            transform: translateY(1px);
         }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
@@ -55,32 +111,47 @@
 <body>
 
     <div class="card">
-        <h1>🎂 Happy Birthday! 🎉</h1>
-        <p>Chúc cho bạn tui có một tuổi mới thật nhiều niềm vui,<br>
-        may mắn và thành công rực rỡ nhé! Hãy luôn mỉm cười và có nhiều nhiều sự thành công hơn trên con đường vững chắc ấy</p>
+        <img src="https://via.placeholder.com/150" alt="Birthday Person" class="profile-img">
         
-        <button class="btn" onclick="fireConfetti()">Bấm vào đây đi!</button>
+        <h1>Happy Birthday!</h1>
+        
+        <p>Chúc mừng sinh nhật Katt nha!<br>
+        Mong bà luôn rạng rỡ, vui vẻ<br>
+        và gặp nhiều may mắn nhé! 🎉<br>
+		Chúc bà thêm vững chắc trên con đường nhà giáo đầy tươi sáng nữa</p>
+        
+        <button class="btn" onclick="fireConfetti()">Bấm để có bất ngờ! 🎂</button>
     </div>
 
     <script>
-        // Tự động bắn pháo giấy khi mở web
+        // Bắn pháo hoa ngay khi mở
         window.onload = function() {
-            fireConfetti();
+            setTimeout(fireConfetti, 1000); // Đợi 1 giây sau khi thẻ hiện ra thì bắn
         };
 
         function fireConfetti() {
-            var count = 200;
-            var defaults = {
-                origin: { y: 0.7 }
-            };
+             // Hiệu ứng pháo hoa hoành tráng hơn
+            var duration = 3 * 1000;
+            var animationEnd = Date.now() + duration;
+            var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
-            function fire(particleRatio, opts) {
-                confetti(Object.assign({}, defaults, opts, {
-                    particleCount: Math.floor(count * particleRatio)
-                }));
+            function random range(min, max) {
+              return Math.random() * (max - min) + min;
             }
 
-            fire(0.25, { spread: 26, startVelocity: 55 });
-            fire(0.2, { spread: 60 });
-            fire(0.35, { spread: 100, decay: 0.91, scalar: 0.8 });
-            fire(0.1, { spread: 120, startVelocity: 25, decay
+            var interval = setInterval(function() {
+              var timeLeft = animationEnd - Date.now();
+
+              if (timeLeft <= 0) {
+                return clearInterval(interval);
+              }
+
+              var particleCount = 50 * (timeLeft / duration);
+              // since particles fall down, start a bit higher than random
+              confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+              confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+            }, 250);
+        }
+    </script>
+</body>
+</html>
