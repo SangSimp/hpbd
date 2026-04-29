@@ -1,0 +1,13 @@
+D:\Thực tập\SmartKanban.Domain\bin\Debug\net9.0\SmartKanban.Domain.deps.json
+D:\Thực tập\SmartKanban.Domain\bin\Debug\net9.0\SmartKanban.Domain.dll
+D:\Thực tập\SmartKanban.Domain\bin\Debug\net9.0\SmartKanban.Domain.pdb
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.csproj.AssemblyReference.cache
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.AssemblyInfoInputs.cache
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.AssemblyInfo.cs
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.csproj.CoreCompileInputs.cache
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.sourcelink.json
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.dll
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\refint\SmartKanban.Domain.dll
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\SmartKanban.Domain.pdb
+D:\Thực tập\SmartKanban.Domain\obj\Debug\net9.0\ref\SmartKanban.Domain.dll

@@ -1,0 +1,204 @@
+﻿/* ==============================================
+   🎨 1. BẢNG MÀU GỐC (LIGHT MODE - CHUẨN TRELLO)
+   ============================================== */
+:root {
+    --bg-primary: #f4f5f7;
+    --bg-header: #ffffff;
+    /* 👇 Đã sửa thành Kính mờ (RGBA) để thấy hình nền */
+    --bg-column: rgba(227, 233, 244, 0.85);
+    --bg-card: rgba(255, 255, 255, 0.95);
+    --text-primary: #172b4d;
+    --text-secondary: #5e6c84;
+    --color-accent: #0079bf;
+    --color-accent-hover: #026aa7;
+    --border-color: #dfe1e6;
+    --avatar-bg: #e3e9f4;
+    --avatar-text: #0c66e4;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ==============================================
+   🌙 2. BẢNG MÀU ĐÃ "ĐỘ" (DARK MODE - MƯỢT MÀ)
+   ============================================== */
+html.dark-theme {
+    --bg-primary: #1A202C;
+    --bg-header: #2D3748;
+    /* 👇 Đã sửa thành Kính mờ (RGBA) */
+    --bg-column: rgba(45, 55, 72, 0.85);
+    --bg-card: rgba(74, 85, 104, 0.95);
+    --text-primary: #EDF2F7;
+    --text-secondary: #A0AEC0;
+    --color-accent: #4A9FFF;
+    --color-accent-hover: #7FBDFF;
+    --border-color: #4A5568;
+    --avatar-bg: #2D3748;
+    --avatar-text: #4A9FFF;
+}
+
+/* ==============================================
+   🌐 3. CSS CƠ BẢN TOÀN TRANG
+   ============================================== */
+body {
+    margin: 0;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* ==============================================
+   ✨ 4. THANH CUỘN TÀNG HÌNH (CUSTOM SCROLLBAR)
+   ============================================== */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+html.dark-theme ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+html.dark-theme ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+    html.dark-theme ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+/* ==============================================
+   ⏳ 5. HIỆU ỨNG NHẤP NHÁY (SKELETON LOADING)
+   ============================================== */
+@keyframes skeleton-pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px) rotateY(-5deg) rotateX(5deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotateY(-5deg) rotateX(5deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotateY(-5deg) rotateX(5deg);
+    }
+}
+
+.floating-glass {
+    animation: float 6s ease-in-out infinite;
+}
+/* --- HIỆU ỨNG SKELETON LOADING --- */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.skeleton {
+    background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.05) 75%);
+    background-size: 1000px 100%;
+    animation: shimmer 2s infinite linear;
+    border-radius: 8px;
+}
+
+html.dark-theme .skeleton {
+    background: linear-gradient(90deg, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.1) 75%);
+    background-size: 1000px 100%;
+}
+/* =========================================================
+   ĐỘ LẠI GIAO DIỆN REACT TOASTIFY THEO STYLE KÍNH MỜ
+   ========================================================= */
+
+/* Làm mờ nền của toàn bộ cục thông báo */
+.Toastify__toast {
+    background: rgba(30, 41, 59, 0.65) !important; /* Màu nền tối trong suốt */
+    backdrop-filter: blur(16px) !important; /* Hiệu ứng làm mờ cảnh phía sau */
+    -webkit-backdrop-filter: blur(16px) !important; /* Hỗ trợ cho Safari */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important; /* Viền sáng mỏng cực sang */
+    border-radius: 16px !important; /* Bo góc tròn trịa mềm mại */
+    color: #ffffff !important; /* Màu chữ trắng */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important; /* Đổ bóng sâu tạo cảm giác lơ lửng */
+    padding: 16px !important; /* Căn lề rộng rãi hơn */
+}
+
+/* Biến cái nền đen mặc định của theme "dark" thành trong suốt để thấy được độ mờ */
+.Toastify__toast-theme--dark {
+    background: rgba(15, 23, 42, 0.65) !important;
+}
+
+/* Đổi màu thanh thời gian chạy (Progress Bar) thành màu Gradient xanh dương */
+.Toastify__progress-bar {
+    background: linear-gradient(135deg, #4A9FFF, #0c66e4) !important;
+    height: 4px !important; /* Cho thanh này mỏng lại cho tinh tế */
+    opacity: 0.9 !important;
+}
+
+/* Đổi màu các loại thông báo khác nhau cho thanh Progress Bar */
+.Toastify__toast--success .Toastify__progress-bar {
+    background: linear-gradient(135deg, #27c93f, #1e7e34) !important; /* Xanh lá */
+}
+
+.Toastify__toast--error .Toastify__progress-bar {
+    background: linear-gradient(135deg, #ff5f56, #ef4444) !important; /* Đỏ */
+}
+
+.Toastify__toast--warning .Toastify__progress-bar {
+    background: linear-gradient(135deg, #ffbd2e, #f59e0b) !important; /* Vàng */
+}
+
+/* Tùy chỉnh Nút X (Đóng) */
+.Toastify__close-button {
+    color: rgba(255, 255, 255, 0.5) !important;
+    opacity: 1 !important;
+    transition: color 0.2s ease !important;
+}
+
+    .Toastify__close-button:hover {
+        color: #ffffff !important;
+    }
+
+/* Tùy chỉnh Icon mặc định của thư viện cho sắc nét hơn */
+.Toastify__toast-icon {
+    width: 24px !important;
+    height: 24px !important;
+}

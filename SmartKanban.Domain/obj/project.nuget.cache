@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qr05H5W9lvk=",
+  "success": true,
+  "projectFilePath": "D:\\Thực tập\\SmartKanban.Domain\\SmartKanban.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bubu\\.nuget\\packages\\mongodb.bson\\3.7.0\\mongodb.bson.3.7.0.nupkg.sha512",
+    "C:\\Users\\Bubu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Bubu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

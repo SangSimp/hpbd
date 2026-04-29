@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\api",
+    "\\src\\components",
+    "\\src\\layouts",
+    "\\src\\pages",
+    "\\src\\redux",
+    "\\src\\services"
+  ],
+  "SelectedNode": "\\src\\components\\CardDetailModal.jsx",
+  "PreviewInSolutionExplorer": false
+}

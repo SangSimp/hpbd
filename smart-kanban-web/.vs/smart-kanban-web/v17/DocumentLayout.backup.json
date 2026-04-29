@@ -1,0 +1,627 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\CardDetailModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CardDetailModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Card.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Card.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Column.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Column.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\redux\\boardSlice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\redux\\boardSlice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Members.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Members.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\WorkflowSettings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\WorkflowSettings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\TopBar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\TopBar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\NotificationBell.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\NotificationBell.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\BoardDetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\BoardDetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\CalendarView.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\CalendarView.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\api\\axiosConfig.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\api\\axiosConfig.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\BoardList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\BoardList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\DashboardOverview.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\DashboardOverview.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\ForgotPassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\ForgotPassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Checklist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Checklist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Analytics.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Analytics.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Setting.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Setting.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\ResetPassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\ResetPassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\redux\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\redux\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\services\\signalrService.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\signalrService.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\layouts\\PublicLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\PublicLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\layouts\\DashboardLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\DashboardLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\PrivateRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\PrivateRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\MainLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MainLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\CardModal.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CardModal.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Members.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Members.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Members.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Members.jsx",
+              "RelativeToolTip": "src\\pages\\Members.jsx",
+              "ViewState": "AgIAAPABAAAAAAAAAAAiwAkCAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T04:25:02.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Board.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Board.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Board.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Board.jsx",
+              "RelativeToolTip": "src\\components\\Board.jsx",
+              "ViewState": "AgIAALIBAAAAAAAAAAAiwOMBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T16:37:47.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAUwMsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-20T03:26:37.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.css",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\App.css",
+              "RelativeDocumentMoniker": "src\\App.css",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\App.css",
+              "RelativeToolTip": "src\\App.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-03T06:40:21.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Column.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Column.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Column.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Column.jsx",
+              "RelativeToolTip": "src\\components\\Column.jsx",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAC0AAACbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T20:26:20.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkflowSettings.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\WorkflowSettings.jsx",
+              "RelativeDocumentMoniker": "src\\components\\WorkflowSettings.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\WorkflowSettings.jsx",
+              "RelativeToolTip": "src\\components\\WorkflowSettings.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-10T13:25:47.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "boardSlice.js",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\redux\\boardSlice.js",
+              "RelativeDocumentMoniker": "src\\redux\\boardSlice.js",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\redux\\boardSlice.js",
+              "RelativeToolTip": "src\\redux\\boardSlice.js",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-16T18:49:34.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Card.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Card.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Card.jsx",
+              "RelativeToolTip": "src\\components\\Card.jsx",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T20:26:35.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardDetailModal.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\CardDetailModal.jsx",
+              "RelativeDocumentMoniker": "src\\components\\CardDetailModal.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\CardDetailModal.jsx",
+              "RelativeToolTip": "src\\components\\CardDetailModal.jsx",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAiwF0BAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T18:47:02.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CalendarView.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\CalendarView.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\CalendarView.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\CalendarView.jsx",
+              "RelativeToolTip": "src\\pages\\CalendarView.jsx",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAswBwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-06T14:45:28.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationBell.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\NotificationBell.jsx",
+              "RelativeDocumentMoniker": "src\\components\\NotificationBell.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\NotificationBell.jsx",
+              "RelativeToolTip": "src\\components\\NotificationBell.jsx",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-21T19:22:26.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BoardDetail.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\BoardDetail.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\BoardDetail.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\BoardDetail.jsx",
+              "RelativeToolTip": "src\\pages\\BoardDetail.jsx",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T20:23:03.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TopBar.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\TopBar.jsx",
+              "RelativeDocumentMoniker": "src\\components\\TopBar.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\TopBar.jsx",
+              "RelativeToolTip": "src\\components\\TopBar.jsx",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAmwP4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-06T13:44:33.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "axiosConfig.js",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\api\\axiosConfig.js",
+              "RelativeDocumentMoniker": "src\\api\\axiosConfig.js",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\api\\axiosConfig.js",
+              "RelativeToolTip": "src\\api\\axiosConfig.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-17T18:38:42.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BoardList.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\BoardList.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\BoardList.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\BoardList.jsx",
+              "RelativeToolTip": "src\\pages\\BoardList.jsx",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAYwEUBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-05T19:53:30.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardOverview.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\DashboardOverview.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\DashboardOverview.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\DashboardOverview.jsx",
+              "RelativeToolTip": "src\\pages\\DashboardOverview.jsx",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAYwI4BAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T03:33:44.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ForgotPassword.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\ForgotPassword.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\ForgotPassword.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\ForgotPassword.jsx",
+              "RelativeToolTip": "src\\pages\\ForgotPassword.jsx",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-03T05:13:06.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Checklist.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Checklist.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Checklist.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\Checklist.jsx",
+              "RelativeToolTip": "src\\components\\Checklist.jsx",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T19:07:05.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Analytics.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Analytics.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Analytics.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Analytics.jsx",
+              "RelativeToolTip": "src\\pages\\Analytics.jsx",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAAAA0BAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T04:56:57.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Dashboard.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Dashboard.jsx",
+              "RelativeToolTip": "src\\pages\\Dashboard.jsx",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAJEAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T20:51:31.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Setting.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Setting.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Setting.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Setting.jsx",
+              "RelativeToolTip": "src\\pages\\Setting.jsx",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAAAOwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-06T12:42:53.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ResetPassword.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\ResetPassword.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\ResetPassword.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\ResetPassword.jsx",
+              "RelativeToolTip": "src\\pages\\ResetPassword.jsx",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-03T05:40:02.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Register.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Register.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Register.jsx",
+              "RelativeToolTip": "src\\pages\\Register.jsx",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T20:44:48.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Profile.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Profile.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Profile.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Profile.jsx",
+              "RelativeToolTip": "src\\pages\\Profile.jsx",
+              "ViewState": "AgIAAJ4BAAAAAAAAAAAAALsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T05:22:14.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Login.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Login.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Login.jsx",
+              "RelativeToolTip": "src\\pages\\Login.jsx",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T20:19:00.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "src\\pages\\Home.jsx",
+              "ViewState": "AgIAAAkDAAAAAAAAAAAAAOoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T03:19:56.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "store.js",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\redux\\store.js",
+              "RelativeDocumentMoniker": "src\\redux\\store.js",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\redux\\store.js",
+              "RelativeToolTip": "src\\redux\\store.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-16T18:50:34.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "signalrService.js",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\services\\signalrService.js",
+              "RelativeDocumentMoniker": "src\\services\\signalrService.js",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\services\\signalrService.js",
+              "RelativeToolTip": "src\\services\\signalrService.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-16T16:36:25.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "main.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T21:02:36.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-16T20:18:11.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PublicLayout.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\layouts\\PublicLayout.jsx",
+              "RelativeDocumentMoniker": "src\\layouts\\PublicLayout.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\layouts\\PublicLayout.jsx",
+              "RelativeToolTip": "src\\layouts\\PublicLayout.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T03:14:54.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DashboardLayout.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\layouts\\DashboardLayout.jsx",
+              "RelativeDocumentMoniker": "src\\layouts\\DashboardLayout.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\layouts\\DashboardLayout.jsx",
+              "RelativeToolTip": "src\\layouts\\DashboardLayout.jsx",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-04T03:15:29.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PrivateRoute.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\PrivateRoute.jsx",
+              "RelativeDocumentMoniker": "src\\components\\PrivateRoute.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\PrivateRoute.jsx",
+              "RelativeToolTip": "src\\components\\PrivateRoute.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-20T18:17:16.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainLayout.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\MainLayout.jsx",
+              "RelativeDocumentMoniker": "src\\components\\MainLayout.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\MainLayout.jsx",
+              "RelativeToolTip": "src\\components\\MainLayout.jsx",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-17T18:49:31.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CardModal.jsx",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\CardModal.jsx",
+              "RelativeDocumentMoniker": "src\\components\\CardModal.jsx",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\src\\components\\CardModal.jsx",
+              "RelativeToolTip": "src\\components\\CardModal.jsx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-19T18:55:34.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-21T16:52:00.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\Th\u1EF1c t\u1EADp\\smart-kanban-web\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-16T21:32:20.832Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

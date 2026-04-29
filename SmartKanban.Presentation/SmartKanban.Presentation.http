@@ -1,0 +1,6 @@
+@SmartKanban.Presentation_HostAddress = http://localhost:5078
+
+GET {{SmartKanban.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

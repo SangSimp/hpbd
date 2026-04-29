@@ -1,0 +1,631 @@
+[
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AdminController",
+    "Method": "GetPublicStatistics",
+    "RelativePath": "api/v1/admin/public/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AdminController",
+    "Method": "GetSystemStatistics",
+    "RelativePath": "api/v1/admin/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AdminController",
+    "Method": "ToggleUserStatus",
+    "RelativePath": "api/v1/admin/users/{targetUserId}/toggle-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "targetUserId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AiController",
+    "Method": "GenerateChecklist",
+    "RelativePath": "api/v1/ai/generate-checklist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartKanban.Presentation.Controllers.AiController\u002BAiBreakdownRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AnalyticsController",
+    "Method": "GetAnalytics",
+    "RelativePath": "api/v1/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timeRange",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "projectId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/v1/auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Application.DTOs.Auth.ForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AuthController",
+    "Method": "GitHubLoginAsync",
+    "RelativePath": "api/v1/auth/github-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.AuthController\u002BGitHubLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AuthController",
+    "Method": "GoogleLoginAsync",
+    "RelativePath": "api/v1/auth/google-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.AuthController\u002BGoogleLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/v1/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Application.DTOs.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.AuthController",
+    "Method": "RegisterAsync",
+    "RelativePath": "api/v1/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Application.DTOs.Auth.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "GetMyWorkspace",
+    "RelativePath": "api/v1/boards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "CreateBoard",
+    "RelativePath": "api/v1/boards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newBoard",
+        "Type": "SmartKanban.Domain.Entities.Board",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "GetBoardActivities",
+    "RelativePath": "api/v1/boards/{boardId}/activities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "boardId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "InviteMemberToBoard",
+    "RelativePath": "api/v1/boards/{boardId}/invite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "boardId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.BoardController\u002BInviteMemberDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "GetBoardById",
+    "RelativePath": "api/v1/boards/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "UpdateColumnOrder",
+    "RelativePath": "api/v1/boards/{id}/column-order",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "columnOrderIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "UploadBackground",
+    "RelativePath": "api/v1/boards/{id}/upload-background",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "GetCalendarTasks",
+    "RelativePath": "api/v1/boards/calendar-tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.BoardController",
+    "Method": "GetDashboardStats",
+    "RelativePath": "api/v1/boards/dashboard-stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.CardController",
+    "Method": "CreateCard",
+    "RelativePath": "api/v1/cards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.CardController\u002BCreateCardDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "boardId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.CardController",
+    "Method": "UpdateCardDetails",
+    "RelativePath": "api/v1/cards/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateData",
+        "Type": "SmartKanban.Domain.Entities.Card",
+        "IsRequired": true
+      },
+      {
+        "Name": "boardId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.CardController",
+    "Method": "DeleteCard",
+    "RelativePath": "api/v1/cards/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "boardId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.CardController",
+    "Method": "UploadAttachment",
+    "RelativePath": "api/v1/cards/{id}/attachments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.CardController",
+    "Method": "AddComment",
+    "RelativePath": "api/v1/cards/{id}/comments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.CardController\u002BCommentPayloadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.CardController",
+    "Method": "MoveCard",
+    "RelativePath": "api/v1/cards/{id}/move",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.CardController\u002BMoveCardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.CardController",
+    "Method": "UploadBackground",
+    "RelativePath": "api/v1/cards/{id}/upload-background",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.ColumnController",
+    "Method": "CreateColumn",
+    "RelativePath": "api/v1/columns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.ColumnController\u002BCreateColumnDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.ColumnController",
+    "Method": "DeleteColumn",
+    "RelativePath": "api/v1/columns/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.ColumnController",
+    "Method": "UpdateColumn",
+    "RelativePath": "api/v1/columns/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.ColumnController\u002BUpdateColumnDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.ColumnController",
+    "Method": "UpdateColumnWorkflow",
+    "RelativePath": "api/v1/columns/{id}/workflow",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "allowedNextColumnIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.NotificationController",
+    "Method": "GetMyNotifications",
+    "RelativePath": "api/v1/notifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.NotificationController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/v1/notifications/{id}/read",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.NotificationController",
+    "Method": "MarkAllAsRead",
+    "RelativePath": "api/v1/notifications/read-all",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.NotificationController",
+    "Method": "TestTingTing",
+    "RelativePath": "api/v1/notifications/test-chuong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "targetUserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/v1/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.UserController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/v1/users/{id}/role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.UserController\u002BUpdateRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartKanban.Presentation.Controllers.UserController",
+    "Method": "UpdatePosition",
+    "RelativePath": "api/v1/users/{userId}/position",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "payload",
+        "Type": "SmartKanban.Presentation.Controllers.UserController\u002BUpdatePositionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
